@@ -6,12 +6,20 @@ function App() {
   return (
     <div className="font color-body">
       <Container className="py-5">
-        <Row className="justify-content-center">
+        <Row className="justify-content-center my-2">
           <Col sm="8">لديك 4 مواعيد اليوم</Col>
         </Row>
         <Row className="justify-content-center">
           <Col sm="8">
-            <div className="rectangle"></div>
+            <div className="rectangle p-2 ">
+              <div className="d-flex border-bottom mx-3 my-2">
+                <img src="p1.jpg" className="img-avatar" alt=""></img>
+                <div className="px-3">
+                  <p className="d-inline fs-5">محمد احمد </p>
+                  <p className="fs-6">السابعة مساءا</p>
+                </div>
+              </div>
+            </div>
           </Col>
         </Row>
         <Row className="justify-content-center my-2">
